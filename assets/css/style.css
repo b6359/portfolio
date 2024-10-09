@@ -338,7 +338,7 @@ main {
 
 .info-content .name {
   color: var(--white-2);
-  font-size: var(--fs-3);
+  font-size: var(--fs-2);
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
   margin-bottom: 10px;
@@ -347,7 +347,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: var(--fs-8);
+  font-size: var(--fs-7);
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
@@ -442,7 +442,11 @@ main {
   color: var(--light-gray-70);
   font-size: 18px;
 }
-
+.social-link img {
+ height: 20px;
+ width: 20px;
+ border-radius: 3px;
+}
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
@@ -795,10 +799,19 @@ main {
   margin-bottom: 7px;
 }
 
+.timeline-item-title span{
+  font-size: 14px !important;
+}
+
 .timeline-list span {
   color: var(--vegas-gold);
-  font-weight: var(--fw-400);
-  line-height: 1.6;
+    line-height: 1.6;
+    background: var(--onyx);
+    font-size: var(--fs-8);
+    font-weight: var(--fw-300);
+    width: max-content;
+    padding: 5px 12px;
+    border-radius: 8px;
 }
 
 .timeline-item:not(:last-child)::before {
@@ -1341,7 +1354,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { width: 120px; }
 
-  .info-content .name { margin-bottom: 15px; }
+  .info-content .name { margin-bottom: 15px; font-size: 20px; }
 
   .info-content .title { padding: 5px 18px; }
 
